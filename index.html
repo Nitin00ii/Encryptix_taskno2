@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>person portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61b4efccf4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>N</span>itin <span>S</span>ingh</h1>
+             
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi, I'm<span> Nitin</span><br> from India</h1>
+            </div>
+        </div>
+        </div>
+        <!--------------about-------->
+        <div id="about">
+            <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/nice.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi my name is Nitin Singh and I am form Ranchi,Jharkhand and recently I have completed 
+                       Master of computer Application from Lovely professional University and prior to that I 
+                       have completed my Gradution from Ranchi University and duing my acadimic journey I have
+                       I have a solid foundition in c++,java,HTML,css,javascript,MERN Stack</p>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                        
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>web-development</span><br>Designing web/app interfaces</li>
+                            <li><span>software-development</span><br>Designing software</li>
+                            <li><span>networking</span><br>manage networking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>ntinn singh</span><br>Designing web/app interfaces</li>
+                            <li><span>software-development</span><br>Designing software</li>
+                            <li><span>networking</span><br>manage networking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>post-graduate</span><br>Master of computer application from lovely professional university</li>
+                            <li><span>Gradution </span><br>Bsc.IT from Ranchi University</li>
+                            <li><span>networking</span><br>manage networking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+   <!--------------SERVICES-------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web Design</h2>
+            <p>hello my name is nitin singh and I am a web-designer</p>
+            <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>software Developer</h2>
+            <p>hello my name is nitin singh and I am a web-designer</p>
+            <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Designer</h2>
+            <p>hello my name is nitin singh and I am a web-designer</p>
+            <a href="#">Learn more</a>
+           </div>  
+        </div>
+    </div>
+   </div>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="image/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around yhe world.
+                    download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-2.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around yhe world.
+                    download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-3.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around yhe world.
+                    download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+   </div>
+   </div>
+   <!-------------contact------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>nitinsingh200011@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9608847507</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Nitin00ii"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nitinsingh2000/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email"placeholder="Your email"required>
+                <textarea name="message" rows="6"placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; nitin singh.Made with <i class="fa-solid fa-heart"></i> thank you for responding</p>
+    </div>
+   </div>
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contains");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
